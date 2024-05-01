@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+::selection{
+    background-color: #ffffffcf;
+    color: #00000061;
+}
+
+body{
+    background-image: url("../img/portfolio-1.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 385px;
+    height: 355px;
+    margin: 13% auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #000000a3;
+    position: relative;
+    border: 3px solid #ffffff87;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transform: translate(-50% -50%);
+    -webkit-transform: translate(-50% -50%);
+    -moz-transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+    -o-transform: translate(-50% -50%);
+}
+form{
+    width: 80%;
+    color: #ffffffcf;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+} 
+input{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 2px solid #ffffff87;
+    margin: 8px 0;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffffcf;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    caret-color: white;
+    padding: 0 9px;
+}
+h1{
+    color: #ffffffcf;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+input[type="submit"]{
+    height: 40px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-right: 32%;
+    margin: 10px auto ;
+    text-align: center;
+    color: #ffffffcf;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+}
+input[type="submit"]:hover{
+    background-color: #ffffffcf;
+    color: #00000085;
+    border-color: #00000085;
+}
+a{
+    color: #ffffffcf;
+    margin-right: 5px;
+    text-decoration: none;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+}
+
+.container input[type="checkbox"]{
+    height: 17px;
+    position: absolute;
+    left: 140px;
+    margin-top: 2px;
+}
+a:hover{
+    color: #ffffff78;
+}
+a:last-child{
+    margin-right: 25%;
+}
+
+.container label{
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+.container label[for]{
+    margin-right: 25px;
+    margin-left: 40px;
+}
